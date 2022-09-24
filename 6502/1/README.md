@@ -8,7 +8,7 @@ I will write some articles about How to use the 6502 C Compiler and integrate th
 Below is an example that cc65 compiles the c code to asm.
 
 
-####adder.c
+### adder.c
 
 
 ```c
@@ -20,7 +20,7 @@ int main (void)
 }
 ```
 
-####adder.s
+### adder.s
 
 ```asm
 ;
@@ -65,6 +65,6 @@ L0001:	jsr     incsp1
 
 .endproc
 ```
-###References
+### References
 
 [1] cc65 — the 6502 C Compiler
